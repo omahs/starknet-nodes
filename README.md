@@ -58,9 +58,9 @@ curl <IP address> \
 ## Cloud deployment
 
 Docker has built-in integrations with [AWS](https://docs.docker.com/cloud/ecs-integration/) and [Azure](https://docs.docker.com/cloud/aci-integration/) using `docker context`.
-For these provider, the above-mentioned `docker compose` commands work out-of-the-box **when no project-name** is specified.
+For these providers, the above-mentioned `docker compose` commands work out-of-the-box **when no project-name** is specified.
 
-More details are given in the dedicated pages:
+More details are given on the dedicated pages:
 
 - for AWS: [docs/aws/README.md](./docs/aws/README.md)
 - for Azure: [docs/azure/README.md](./docs/azure/README.md)
